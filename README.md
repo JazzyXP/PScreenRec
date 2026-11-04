@@ -12,7 +12,7 @@ Process Recorder сохраняет изменения холста без па�
 
 **[Скачать установщик 0.5.6 — без Creative Cloud](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/ProcessRecorder-0.5.6-Installer10.exe)** · [SHA-256](downloads/ProcessRecorder-0.5.6-Installer10.exe.sha256)
 
-Windows x64 · Python включён · сборка Installer10, ревизия 18.
+Windows x64 · Python включён · сборка Installer10, ревизия 19.
 
 ### Интерфейс
 
@@ -33,6 +33,8 @@ Windows x64 · Python включён · сборка Installer10, ревизия
 - Автоматически выбирать интерфейс по языку Photoshop.
 
 ## Установка на Windows
+
+Язык установщика выбирается по языку Windows. Доступны русский, английский, немецкий, французский, испанский, португальский (Бразилия) и украинский; язык можно изменить при запуске. Для остальных систем по умолчанию используется английский. Язык панели плагина по-прежнему определяется языком Photoshop (русский или английский).
 
 1. Сохраните рисунки и закройте Photoshop.
 2. Запустите установщик Process Recorder и следуйте подсказкам.

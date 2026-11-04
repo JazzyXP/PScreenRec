@@ -12,7 +12,7 @@ Process Recorder captures canvas changes without Photoshop panels and exports th
 
 **[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/ProcessRecorder-0.5.6-Installer10.exe)** · [SHA-256](downloads/ProcessRecorder-0.5.6-Installer10.exe.sha256)
 
-Windows x64 · Python included · Installer10, revision 18.
+Windows x64 · Python included · Installer10, revision 19.
 
 ### Interface
 
@@ -33,6 +33,8 @@ Windows x64 · Python included · Installer10, revision 18.
 - Interface language selected automatically from Photoshop’s language.
 
 ## Windows installation
+
+The installer selects a default language from Windows: English, Russian, German, French, Spanish, Brazilian Portuguese or Ukrainian. You can change it at startup. Other system languages default to English. The plugin panel still follows the Photoshop language (Russian or English).
 
 1. Save your drawings and close Photoshop.
 2. Run the Process Recorder installer and follow the prompts.
