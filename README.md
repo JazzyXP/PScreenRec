@@ -1,74 +1,74 @@
 # PScreenRec
 
-[Русский](README.md) · [English](README.en.md)
+[English](README.md) · [Русский](README.ru.md)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.6-555)
 
-**Таймлапсы в Photoshop.**
+**Timelapses in Photoshop.**
 
-PScreenRec сохраняет изменения холста без панелей Photoshop и собирает из них MP4. Записи хранятся на вашем компьютере.
+PScreenRec captures canvas changes without Photoshop panels and exports them as MP4. Recordings stay on your computer.
 
-### Скачать для Windows
+### Download for Windows
 
-**[Скачать установщик 0.5.6 — без Creative Cloud](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/PScreenRec-0.5.6-Setup.exe)** · [SHA-256](downloads/PScreenRec-0.5.6-Setup.exe.sha256)
+**[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/PScreenRec-0.5.6-Setup.exe)** · [SHA-256](downloads/PScreenRec-0.5.6-Setup.exe.sha256)
 
-[Поблагодарить разработчика](https://app.lava.top/dnso?tabId=about)
+[Thank the developer](https://app.lava.top/dnso?tabId=about)
 
-Windows x64 · Python включён · ревизия 22.
+Windows x64 · Python included · revision 22.
 
-### Интерфейс
+### Interface
 
-<table><tr><th>Запись</th><th>Таймлапс и экспорт</th></tr><tr><td><img src="assets/recorder.png" alt="Панель записи PScreenRec в Photoshop" width="360"></td><td><img src="assets/timelapse.png" alt="Выбор кадров, обрезка и экспорт MP4" width="360"></td></tr></table>
+<table><tr><th>Recording</th><th>Timelapse and export</th></tr><tr><td><img src="assets/recorder.png" alt="PScreenRec recording panel in Photoshop" width="360"></td><td><img src="assets/timelapse.png" alt="Frame selection, cropping and MP4 export" width="360"></td></tr></table>
 
-### Примеры видео
+### Video examples
 
-[Рыцарь и комар — посмотреть MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/knight-and-mosquito.mp4) · [Ещё один пример — посмотреть MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/timelapse-example.mp4)
+[Knight and mosquito — view MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/knight-and-mosquito.mp4) · [Another timelapse — view MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/timelapse-example.mp4)
 
-## Что умеет
+## Features
 
-- Включать запись отдельно для каждого документа и запоминать выбор для новых файлов.
-- Записывать весь холст независимо от масштаба просмотра или учитывать зум и перемещение.
-- Выбирать качество и частоту захвата изменений.
-- Показывать активное время работы и отдельный таймер этапа со сбросом.
-- Просматривать таймлапс в панели: выбирать начало и конец, обрезать изображение и сохранять пропорции.
-- Экспортировать MP4 исходной длительности при 10 кадрах/с либо на 15, 30 или 60 секунд, с задержкой последнего кадра.
-- Автоматически выбирать интерфейс по языку Photoshop.
+- Separate recording control for each document and a remembered preference for new documents.
+- Full-canvas capture, with an option to include zoom and pan.
+- Recording quality and change frequency controls.
+- Active work time and a resettable stage timer.
+- Timelapse preview in the panel, frame range selection and cropping.
+- MP4 export at the original 10 fps timing or a target duration of 15, 30 or 60 seconds, including a final-frame hold.
+- Interface language selected automatically from Photoshop’s language.
 
-## Установка на Windows
+## Windows installation
 
-Язык установщика выбирается по языку Windows. Доступны русский, английский, немецкий, французский, испанский, португальский (Бразилия) и украинский; язык можно изменить при запуске. Для остальных систем по умолчанию используется английский. Язык панели плагина по-прежнему определяется языком Photoshop (русский или английский).
+The installer selects a default language from Windows: English, Russian, German, French, Spanish, Brazilian Portuguese or Ukrainian. You can change it at startup. Other system languages default to English. The plugin panel still follows the Photoshop language (Russian or English).
 
-1. Сохраните рисунки и закройте Photoshop.
-2. Запустите установщик PScreenRec и следуйте подсказкам.
-3. Откройте Photoshop → **Plugins → PScreenRec → PScreenRec**.
-4. Включите **«Записывать этот документ»** для открытого рисунка. Чтобы записывать следующие новые файлы, включите **«Записывать новые документы»**.
+1. Save your drawings and close Photoshop.
+2. Run the PScreenRec installer and follow the prompts.
+3. Open Photoshop → **Plugins → PScreenRec → PScreenRec**.
+4. Enable **Record this document** for the current drawing. Enable **Record new documents** to record subsequently created files.
 
-Для установщика без Creative Cloud отдельно устанавливать Creative Cloud, Python или UXP Developer Tool не нужно. Для первоначальной загрузки FFmpeg требуется интернет.
+The installer without Creative Cloud includes Python. You do not need to install Creative Cloud, Python or UXP Developer Tool separately. An internet connection is required for the initial FFmpeg download.
 
-## Какое качество выбрать
+## Recording quality
 
-| Качество | Максимальная длинная сторона кадра |
+| Quality | Maximum long edge |
 | --- | --- |
-| Обычное / Normal | 1920 px |
-| Высокое / High | 3840 px |
-| Исходное / Original | Размер холста в пределах поддерживаемого захвата |
+| Normal | 1920 px |
+| High | 3840 px |
+| Original | Canvas size within supported capture limits |
 
-Пропорции сохраняются, маленькие изображения не увеличиваются. Фактический размер кадра показан под списком. Изменение качества влияет на будущие кадры.
+Aspect ratio is preserved and small canvases are not upscaled. The panel displays the actual recorded frame dimensions. Quality changes apply to future frames.
 
-**Для больших холстов рекомендуем High.** Захват исходного размера может заметно нагружать Photoshop и вызывать кратковременное появление курсора ожидания. High уменьшает нагрузку; качество экспорта уже записанных кадров от этого не меняется.
+**High is recommended for large canvases.** Original-size capture can put more load on Photoshop and briefly show a busy cursor. High reduces the workload; it does not change previously recorded frames.
 
-## Экспорт
+## Export
 
-Откройте **«Таймлапс»**, выберите кадры, область изображения, длительность и размер видео. Нажмите **«Экспортировать MP4»** и выберите место сохранения в системном диалоге.
+Open **Timelapse**, choose the frame range, crop, duration and video size, then click **Export MP4** and choose a destination in the system save dialog.
 
-## Совместимость и ограничения
+## Availability and limitations
 
-Текущая сборка предназначена для Windows. Версия для macOS пока не готова.
+The current build is for Windows. A macOS release is not ready yet.
 
-Плагин сохраняет состояния холста, а не каждое действие Photoshop: несколько быстрых изменений могут попасть в один кадр. На отдельных версиях Photoshop во время захвата возможно кратковременное изменение курсора. Большие холсты в исходном качестве требуют больше времени и места на диске.
+The plugin captures canvas states rather than every individual Photoshop action. Several rapid changes may be combined into one frame. Some Photoshop versions may briefly change the cursor during capture. Original-size recording of large canvases requires more processing time and disk space.
 
-## Сообщить о проблеме
+## Report a problem
 
-[Создать обращение](https://github.com/JazzyXP/PScreenRec/issues/new).
+[Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new).
 
-Укажите версию Photoshop и Windows, размер холста, выбранное качество записи и шаги, после которых появляется проблема. Прикладывайте скриншот сообщения об ошибке без личных данных.
+Include your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
