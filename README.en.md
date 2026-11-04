@@ -12,7 +12,7 @@ Process Recorder captures canvas changes without Photoshop panels and exports th
 
 **[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/ProcessRecorder-0.5.6-Installer10.exe)** · [SHA-256](downloads/ProcessRecorder-0.5.6-Installer10.exe.sha256)
 
-Windows x64 · Python included · Installer10, revision 17.
+Windows x64 · Python included · Installer10, revision 18.
 
 ### Interface
 
@@ -68,3 +68,7 @@ The plugin captures canvas states rather than every individual Photoshop action.
 [Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new).
 
 Include your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
+
+## Support development
+
+If PScreenRec helps your work, you can [leave a tip](https://app.lava.top/dnso?tabId=donate). Support is optional: all features are available without payment.

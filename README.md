@@ -12,7 +12,7 @@ Process Recorder сохраняет изменения холста без па�
 
 **[Скачать установщик 0.5.6 — без Creative Cloud](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/ProcessRecorder-0.5.6-Installer10.exe)** · [SHA-256](downloads/ProcessRecorder-0.5.6-Installer10.exe.sha256)
 
-Windows x64 · Python включён · сборка Installer10, ревизия 17.
+Windows x64 · Python включён · сборка Installer10, ревизия 18.
 
 ### Интерфейс
 
@@ -68,3 +68,7 @@ Windows x64 · Python включён · сборка Installer10, ревизия
 [Создать обращение](https://github.com/JazzyXP/PScreenRec/issues/new).
 
 Укажите версию Photoshop и Windows, размер холста, выбранное качество записи и шаги, после которых появляется проблема. Прикладывайте скриншот сообщения об ошибке без личных данных.
+
+## Поддержать разработку
+
+Если PScreenRec вам полезен, можно [оставить чаевые](https://app.lava.top/dnso?tabId=donate). Это добровольно: все функции доступны без оплаты.
