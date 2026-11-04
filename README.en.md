@@ -2,7 +2,9 @@
 
 [Русский](README.md) · [English](README.en.md)
 
-**Record drawing timelapses directly in Photoshop.**
+![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.6-555)
+
+**Timelapses in Photoshop.**
 
 Process Recorder captures canvas changes without Photoshop panels and exports them as MP4. Recordings stay on your computer.
 
@@ -16,6 +18,10 @@ Windows x64 · Python included · Installer10, revision 17.
 
 <table><tr><th>Recording</th><th>Timelapse and export</th></tr><tr><td><img src="assets/recorder.png" alt="PScreenRec recording panel in Photoshop" width="360"></td><td><img src="assets/timelapse.png" alt="Frame selection, cropping and MP4 export" width="360"></td></tr></table>
 
+### Video examples
+
+[Knight and mosquito — view MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/knight-and-mosquito.mp4) · [Another timelapse — view MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/timelapse-example.mp4)
+
 ## Features
 
 - Separate recording control for each document and a remembered preference for new documents.
@@ -24,7 +30,7 @@ Windows x64 · Python included · Installer10, revision 17.
 - Active work time and a resettable stage timer.
 - Timelapse preview in the panel, frame range selection and cropping.
 - MP4 export at the original 10 fps timing or a target duration of 15, 30 or 60 seconds, including a final-frame hold.
-- Russian and English interface, selected automatically from Photoshop’s language.
+- Interface language selected automatically from Photoshop’s language.
 
 ## Windows installation
 
@@ -51,8 +57,6 @@ Aspect ratio is preserved and small canvases are not upscaled. The panel display
 
 Open **Timelapse**, choose the frame range, crop, duration and video size, then click **Export MP4** and choose a destination in the system save dialog.
 
-Cropping and output size do not modify the original recorded frames. Export cannot restore details missing from the recording.
-
 ## Availability and limitations
 
 The current build is for Windows. A macOS release is not ready yet.
@@ -61,4 +65,6 @@ The plugin captures canvas states rather than every individual Photoshop action.
 
 ## Report a problem
 
-[Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new) with your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
+[Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new).
+
+Include your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
