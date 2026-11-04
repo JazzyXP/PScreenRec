@@ -6,13 +6,13 @@
 
 **Таймлапсы в Photoshop.**
 
-Process Recorder сохраняет изменения холста без панелей Photoshop и собирает из них MP4. Записи хранятся на вашем компьютере.
+PScreenRec сохраняет изменения холста без панелей Photoshop и собирает из них MP4. Записи хранятся на вашем компьютере.
 
 ### Скачать для Windows
 
-**[Скачать установщик 0.5.6 — без Creative Cloud](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/ProcessRecorder-0.5.6-Installer10.exe)** · [SHA-256](downloads/ProcessRecorder-0.5.6-Installer10.exe.sha256)
+**[Скачать установщик 0.5.6 — без Creative Cloud](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/PScreenRec-0.5.6-Setup.exe)** · [Поблагодарить разработчика](https://app.lava.top/dnso?tabId=donate) · [SHA-256](downloads/PScreenRec-0.5.6-Setup.exe.sha256)
 
-Windows x64 · Python включён · сборка Installer10, ревизия 19.
+Windows x64 · Python включён · ревизия 20.
 
 ### Интерфейс
 
@@ -37,8 +37,8 @@ Windows x64 · Python включён · сборка Installer10, ревизия
 Язык установщика выбирается по языку Windows. Доступны русский, английский, немецкий, французский, испанский, португальский (Бразилия) и украинский; язык можно изменить при запуске. Для остальных систем по умолчанию используется английский. Язык панели плагина по-прежнему определяется языком Photoshop (русский или английский).
 
 1. Сохраните рисунки и закройте Photoshop.
-2. Запустите установщик Process Recorder и следуйте подсказкам.
-3. Откройте Photoshop → **Plugins → Process Recorder → Recorder**.
+2. Запустите установщик PScreenRec и следуйте подсказкам.
+3. Откройте Photoshop → **Plugins → PScreenRec → PScreenRec**.
 4. Включите **«Записывать этот документ»** для открытого рисунка. Чтобы записывать следующие новые файлы, включите **«Записывать новые документы»**.
 
 Для установщика без Creative Cloud отдельно устанавливать Creative Cloud, Python или UXP Developer Tool не нужно. Для первоначальной загрузки FFmpeg требуется интернет.
@@ -70,7 +70,3 @@ Windows x64 · Python включён · сборка Installer10, ревизия
 [Создать обращение](https://github.com/JazzyXP/PScreenRec/issues/new).
 
 Укажите версию Photoshop и Windows, размер холста, выбранное качество записи и шаги, после которых появляется проблема. Прикладывайте скриншот сообщения об ошибке без личных данных.
-
-## Поддержать разработку
-
-Если PScreenRec вам полезен, можно [оставить чаевые](https://app.lava.top/dnso?tabId=donate). Это добровольно: все функции доступны без оплаты.

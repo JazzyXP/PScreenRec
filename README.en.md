@@ -6,13 +6,13 @@
 
 **Timelapses in Photoshop.**
 
-Process Recorder captures canvas changes without Photoshop panels and exports them as MP4. Recordings stay on your computer.
+PScreenRec captures canvas changes without Photoshop panels and exports them as MP4. Recordings stay on your computer.
 
 ### Download for Windows
 
-**[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/ProcessRecorder-0.5.6-Installer10.exe)** · [SHA-256](downloads/ProcessRecorder-0.5.6-Installer10.exe.sha256)
+**[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/PScreenRec-0.5.6-Setup.exe)** · [Thank the developer](https://app.lava.top/dnso?tabId=donate) · [SHA-256](downloads/PScreenRec-0.5.6-Setup.exe.sha256)
 
-Windows x64 · Python included · Installer10, revision 19.
+Windows x64 · Python included · revision 20.
 
 ### Interface
 
@@ -37,8 +37,8 @@ Windows x64 · Python included · Installer10, revision 19.
 The installer selects a default language from Windows: English, Russian, German, French, Spanish, Brazilian Portuguese or Ukrainian. You can change it at startup. Other system languages default to English. The plugin panel still follows the Photoshop language (Russian or English).
 
 1. Save your drawings and close Photoshop.
-2. Run the Process Recorder installer and follow the prompts.
-3. Open Photoshop → **Plugins → Process Recorder → Recorder**.
+2. Run the PScreenRec installer and follow the prompts.
+3. Open Photoshop → **Plugins → PScreenRec → PScreenRec**.
 4. Enable **Record this document** for the current drawing. Enable **Record new documents** to record subsequently created files.
 
 The installer without Creative Cloud includes Python. You do not need to install Creative Cloud, Python or UXP Developer Tool separately. An internet connection is required for the initial FFmpeg download.
@@ -70,7 +70,3 @@ The plugin captures canvas states rather than every individual Photoshop action.
 [Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new).
 
 Include your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
-
-## Support development
-
-If PScreenRec helps your work, you can [leave a tip](https://app.lava.top/dnso?tabId=donate). Support is optional: all features are available without payment.
