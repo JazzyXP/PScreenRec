@@ -72,3 +72,5 @@ The plugin captures canvas states rather than every individual Photoshop action.
 [Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new).
 
 Include your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
+
+[Privacy](PRIVACY.md) · [Use information](TERMS.md) · [Third-party components](THIRD_PARTY.md)
