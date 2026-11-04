@@ -12,7 +12,7 @@ PScreenRec captures canvas changes without Photoshop panels and exports them as 
 
 **[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/PScreenRec-0.5.6-Setup.exe)** · [Thank the developer](https://app.lava.top/dnso?tabId=donate) · [SHA-256](downloads/PScreenRec-0.5.6-Setup.exe.sha256)
 
-Windows x64 · Python included · revision 20.
+Windows x64 · Python included · revision 21.
 
 ### Interface
 
