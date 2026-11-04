@@ -8,6 +8,16 @@
 
 Process Recorder сохраняет изменения холста без панелей Photoshop и собирает из них MP4. Записи хранятся на вашем компьютере.
 
+### Скачать для Windows
+
+**[Скачать установщик 0.5.6 — без Creative Cloud](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/ProcessRecorder-0.5.6-Installer10.exe)** · [SHA-256](downloads/ProcessRecorder-0.5.6-Installer10.exe.sha256)
+
+Windows x64 · Python включён · сборка Installer10, ревизия 17.
+
+### Интерфейс
+
+<table><tr><th>Запись</th><th>Таймлапс и экспорт</th></tr><tr><td><img src="assets/recorder.png" alt="Панель записи PScreenRec в Photoshop" width="360"></td><td><img src="assets/timelapse.png" alt="Выбор кадров, обрезка и экспорт MP4" width="360"></td></tr></table>
+
 ## Что умеет
 
 - Включать запись отдельно для каждого документа и запоминать выбор для новых файлов.
@@ -53,7 +63,7 @@ Process Recorder сохраняет изменения холста без па�
 
 ## Сообщить о проблеме
 
-[Создать обращение](https://github.com/JazzyXP/ScrenRec/issues/new).
+[Создать обращение](https://github.com/JazzyXP/PScreenRec/issues/new).
 
 Укажите версию Photoshop и Windows, размер холста, выбранное качество записи и шаги, после которых появляется проблема. Прикладывайте скриншот сообщения об ошибке без личных данных.
 

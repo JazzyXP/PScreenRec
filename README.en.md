@@ -6,6 +6,16 @@
 
 Process Recorder captures canvas changes without Photoshop panels and exports them as MP4. Recordings stay on your computer.
 
+### Download for Windows
+
+**[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/ProcessRecorder-0.5.6-Installer10.exe)** · [SHA-256](downloads/ProcessRecorder-0.5.6-Installer10.exe.sha256)
+
+Windows x64 · Python included · Installer10, revision 17.
+
+### Interface
+
+<table><tr><th>Recording</th><th>Timelapse and export</th></tr><tr><td><img src="assets/recorder.png" alt="PScreenRec recording panel in Photoshop" width="360"></td><td><img src="assets/timelapse.png" alt="Frame selection, cropping and MP4 export" width="360"></td></tr></table>
+
 ## Features
 
 - Separate recording control for each document and a remembered preference for new documents.
@@ -51,4 +61,4 @@ The plugin captures canvas states rather than every individual Photoshop action.
 
 ## Report a problem
 
-[Open an issue](https://github.com/JazzyXP/ScrenRec/issues/new) with your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
+[Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new) with your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
