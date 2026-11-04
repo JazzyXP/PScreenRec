@@ -1,4 +1,4 @@
-# Process Recorder
+# PScreenRec
 
 [Русский](README.md) · [English](README.en.md)
 
