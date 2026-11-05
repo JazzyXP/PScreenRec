@@ -26,13 +26,22 @@ Windows x64 · Python included · revision 24.
 
 ## Features
 
-- Separate recording control for each document and a remembered preference for new documents.
-- Full-canvas capture, with an option to include zoom and pan.
-- Recording quality and change frequency controls.
+- **Keep adding to the same timelapse across sessions:** close a saved document, reopen it later, or rename it and continue the existing recording.
+- Separate recording control for each document, with an option to automatically record new documents.
+- Capture every detected change, or every 2nd, 5th or 10th change.
+- Record the full canvas or the visible canvas area at the current zoom and pan position.
+- Choose recording quality without upscaling small canvases.
 - Active work time and a resettable stage timer.
 - Timelapse preview in the panel, frame range selection and cropping.
-- MP4 export at the original 10 fps timing or a target duration of 15, 30 or 60 seconds, including a final-frame hold.
+- MP4 export at the original 10 fps timing or a target duration of 15, 30 or 60 seconds.
+- Adjustable hold time for the final frame.
 - Interface language selected automatically from Photoshop’s language.
+
+## Continue a project later
+
+After first using the recorder, **save your document as PSD or PSB** so its recording ID is stored in the file's metadata. Reopening or renaming that file keeps the link to the same local timelapse. Keep the recording data folder: the document stores the link, not all the recorded frames.
+
+Closing or hiding the plugin panel does not stop recording while Photoshop and the document remain open. Closing the document or Photoshop stops capture; when you reopen the saved document, recording can continue into the same timelapse if recording is enabled for it.
 
 ## Windows installation
 
