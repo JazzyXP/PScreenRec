@@ -10,7 +10,9 @@ PScreenRec сохраняет изменения холста без панел�
 
 ### Скачать для Windows
 
-**[Скачать установщик 0.5.6 — без Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe)** · [SHA-256](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe.sha256)
+**[Скачать установщик 0.5.6 — без Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe)**
+
+Кнопка сразу скачивает актуальный установщик для Windows. Другие файлы не нужны.
 
 [Поблагодарить разработчика](https://app.lava.top/dnso?tabId=about)
 
