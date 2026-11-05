@@ -72,6 +72,10 @@ Aspect ratio is preserved and small canvases are not upscaled. The panel display
 
 Open **Timelapse**, choose the frame range, crop, duration and video size, then click **Export MP4** and choose a destination in the system save dialog.
 
+## Thank the developer
+
+PScreenRec is free. If you find it useful, you can [leave a tip](https://app.lava.top/dnso?tabId=about).
+
 ## Availability and limitations
 
 The current build is for Windows. A macOS release is not ready yet.
@@ -83,7 +87,5 @@ The plugin captures canvas states rather than every individual Photoshop action.
 [Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new).
 
 Include your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
-
-[Thank the developer](https://app.lava.top/dnso?tabId=about)
 
 [Privacy](PRIVACY.md) · [Use information](TERMS.md) · [Third-party components](THIRD_PARTY.md)
