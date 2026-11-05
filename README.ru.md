@@ -1,10 +1,10 @@
-# PScreenRec
+# PScreenRec — запись таймлапсов в Photoshop
 
 [English](README.md) · [Русский](README.ru.md)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.6-555) [![Downloads](https://img.shields.io/github/downloads/JazzyXP/PScreenRec/v0.5.6/PScreenRec-0.5.6-Setup.exe?label=downloads&displayAssetName=false&color=0078D4&cacheSeconds=300)](https://github.com/JazzyXP/PScreenRec/releases/tag/v0.5.6)
 
-**Таймлапсы в Photoshop.**
+**Бесплатный плагин Photoshop для записи таймлапсов рисования на Windows.**
 
 **PScreenRec сохраняет процесс рисования примерно как Procreate и Clip Studio Paint:** делает снимки холста по мере изменений и собирает их в таймлапс. Не нужно настраивать OBS или другие программы для захвата экрана! Панели Photoshop и курсор в запись не попадают.
 
