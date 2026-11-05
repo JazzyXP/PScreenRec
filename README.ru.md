@@ -14,7 +14,7 @@ PScreenRec сохраняет изменения холста без панел�
 
 [Поблагодарить разработчика](https://app.lava.top/dnso?tabId=about)
 
-Windows x64 · Python включён · ревизия 22.
+Windows x64 · Python включён · ревизия 24.
 
 ### Интерфейс
 

@@ -14,7 +14,7 @@ PScreenRec captures canvas changes without Photoshop panels and exports them as 
 
 [Thank the developer](https://app.lava.top/dnso?tabId=about)
 
-Windows x64 · Python included · revision 22.
+Windows x64 · Python included · revision 24.
 
 ### Interface
 
