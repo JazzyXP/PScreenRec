@@ -22,7 +22,7 @@ Windows x64 · Python included · revision 24.
 
 ### Video examples
 
-[Knight and mosquito — view MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/knight-and-mosquito.mp4) · [Another timelapse — view MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/timelapse-example.mp4)
+[Watch a timelapse — MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/timelapse-example.mp4)
 
 ## Features
 

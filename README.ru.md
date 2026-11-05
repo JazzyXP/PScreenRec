@@ -22,7 +22,7 @@ Windows x64 · Python включён · ревизия 24.
 
 ### Примеры видео
 
-[Рыцарь и комар — посмотреть MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/knight-and-mosquito.mp4) · [Ещё один пример — посмотреть MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/timelapse-example.mp4)
+[Посмотреть таймлапс — MP4](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/assets/timelapse-example.mp4)
 
 ## Что умеет
 
