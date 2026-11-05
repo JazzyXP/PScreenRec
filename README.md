@@ -16,8 +16,6 @@ Export your timelapse as MP4. Recordings stay on your computer.
 
 The button downloads the current Windows installer directly. No other files are needed.
 
-[Thank the developer](https://app.lava.top/dnso?tabId=about)
-
 Windows x64 · Python included · revision 24.
 
 ### Interface
@@ -85,5 +83,7 @@ The plugin captures canvas states rather than every individual Photoshop action.
 [Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new).
 
 Include your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
+
+[Thank the developer](https://app.lava.top/dnso?tabId=about)
 
 [Privacy](PRIVACY.md) · [Use information](TERMS.md) · [Third-party components](THIRD_PARTY.md)
