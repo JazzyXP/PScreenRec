@@ -2,7 +2,7 @@
 
 [English](README.md) · [Русский](README.ru.md)
 
-![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.6-555)
+![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.6-555) [![Downloads](https://img.shields.io/github/downloads/JazzyXP/PScreenRec/v0.5.6/PScreenRec-0.5.6-Setup.exe?label=downloads)](https://github.com/JazzyXP/PScreenRec/releases/tag/v0.5.6)
 
 **Timelapses in Photoshop.**
 
@@ -10,7 +10,7 @@ PScreenRec captures canvas changes without Photoshop panels and exports them as 
 
 ### Download for Windows
 
-**[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/raw/refs/heads/main/downloads/PScreenRec-0.5.6-Setup.exe)** · [SHA-256](downloads/PScreenRec-0.5.6-Setup.exe.sha256)
+**[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe)** · [SHA-256](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe.sha256)
 
 [Thank the developer](https://app.lava.top/dnso?tabId=about)
 
