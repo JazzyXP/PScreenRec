@@ -6,7 +6,9 @@
 
 **Timelapses in Photoshop.**
 
-PScreenRec captures canvas changes without Photoshop panels and exports them as MP4. Recordings stay on your computer.
+PScreenRec captures your drawing process much like Procreate and Clip Studio Paint: it takes snapshots of the canvas as you make changes and turns them into a timelapse. No need to set up OBS or other screen recording software! Photoshop panels and the cursor stay out of the recording.
+
+Export your timelapse as MP4. Recordings stay on your computer.
 
 ### Download for Windows
 
