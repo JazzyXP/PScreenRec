@@ -2,6 +2,8 @@
 
 This guide is for the Windows UXP plugin installed from Adobe Creative Cloud Marketplace. The Marketplace plugin requires a local helper for storing frames and encoding MP4 videos.
 
+This edition is being prepared for Adobe review and is not yet published in the Marketplace. During review, use the separately supplied Marketplace CCX. A directly installed CCX is not evidence of Marketplace approval.
+
 The Marketplace helper installer is separate from the complete independent installer on the main project page. It does not install, sideload or remove a Photoshop plugin. Do not use the independent installer as the Marketplace companion installer.
 
 ## Install
@@ -24,4 +26,4 @@ Remove the Marketplace plugin through Creative Cloud Desktop. Remove PScreenRec 
 
 Support: denp90@gmail.com. Never attach your connection token to a public issue.
 
-The helper installer has no tip or payment button. All recording and export features are available without payment.
+The helper installer has no tip or payment button. All recording and export features are available without payment. Adobe's review team confirmed on 11 November 2026 that optional non-blocking support links are permitted; no payment is needed for any feature.

@@ -1,6 +1,6 @@
 # PScreenRec privacy information
 
-Last updated: 4 November 2026
+Last updated: 15 November 2026
 
 PScreenRec is developed by JazzyXP (Den Mitin). Contact: denp90@gmail.com.
 
@@ -15,6 +15,8 @@ The local helper stores its configuration and a per-user connection token under 
 The Windows helper checks the foreground application's executable and the elapsed time since the last input to estimate active Photoshop work time. It samples pointer buttons and a small set of modifier keys to avoid capturing during drawing. It does not record typed text, key sequences or window titles.
 
 The helper can retain a bounded in-memory list of capture timing measurements, including canvas dimensions and processing times. This list is local, contains no image data, and is cleared when the helper restarts. Installer and FFmpeg error logs can also exist locally.
+
+The Windows 0.5.9 panel and helper also keep a bounded local history of error categories and numeric codes. Repeated errors are combined. The diagnostic report contains software versions, recording settings, canvas dimensions, queue sizes and recent timings. It excludes artwork, document names, project identifiers, personal paths, connection tokens and raw exception messages. The bug icon lets you save a copy yourself. No report is sent automatically. A report made with the independent installer can open in your system text editor; the Marketplace edition uses a save dialog.
 
 ## Network use
 
