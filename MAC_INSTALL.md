@@ -34,3 +34,5 @@ Marketplace users need the separate [Mac helper](https://github.com/JazzyXP/PScr
 6. После начала записи сохрани рисунок в PSD или PSB. Не удаляй папку записей при обновлении или удалении программы.
 
 Сборки для Apple Silicon, macOS 15+. Intel не проверен. По отчётам с Mac магазинная версия проверена на macOS 15.6.1 и Photoshop 27.10.0; это не обещание проверки всех версий. Короткая смена курсора при захвате остаётся известным ограничением.
+
+[Optional download checksums](MAC_DOWNLOADS_SHA256.txt) ? [Mac third-party notices](MAC_THIRD_PARTY.md)

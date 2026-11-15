@@ -1,0 +1,3 @@
+c8f19a19346159f09682faaab85c1cf9d1c5f41bb2a431a926370a2a0442cae6  PScreenRec-Helper-0.5.10-Mac-arm64-Marketplace.dmg
+6a88b9b2af4fc3615f63f6b4fcd367db70d549c4f321fb1297305dfbd027ec4e  ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg
+39dc472f835ee45eca7eaec618b02a02231eb5ec842e5a4482339b97e0545605  ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg

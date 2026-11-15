@@ -31,3 +31,7 @@ Turning off recording does not delete previous frames. Uninstalling the applicat
 ## Support
 
 If you email us or create a GitHub issue, we receive what you choose to send. Share only the information needed to reproduce a problem. Remove private artwork, document paths and connection tokens before uploading logs or screenshots. GitHub issues are public; email denp90@gmail.com for a private support request or a request concerning information you previously sent.
+
+## Mac edition
+
+On macOS the local helper configuration is stored under `~/Library/Application Support/ProcessRecorder`, with a LaunchAgent for automatic startup. The selected local data folder stores frames and exports. The helper requests Input Monitoring to detect pressed input and avoid capture during drawing; it does not store typed content. The bundled Python and FFmpeg run locally. Do not share connection.json. Mac download and tested limits: [Mac setup](MAC_INSTALL.md).
