@@ -18,6 +18,14 @@ The button downloads the current Windows installer directly. No other files are 
 
 Windows x64 · Python included · revision 24.
 
+### Mac (Apple Silicon)
+
+**[Download without Creative Cloud - experimental](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**
+
+[Alternative: install through Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg) - **[Mac installation instructions](MAC_INSTALL.md)**
+
+macOS 15+ - Apple Silicon only - Python and FFmpeg included. Unsigned installer. The no-CC installer is experimental: recording with CC completely absent has not been verified. Independent installers: 0.5.10.
+
 ### Interface
 
 <table><tr><th>Recording</th><th>Timelapse and export</th></tr><tr><td><img src="assets/recorder.png" alt="PScreenRec recording panel in Photoshop" width="360"></td><td><img src="assets/timelapse.png" alt="Frame selection, cropping and MP4 export" width="360"></td></tr></table>
@@ -78,7 +86,7 @@ PScreenRec is free. If you find it useful, you can [leave a tip](https://app.lav
 
 ## Availability and limitations
 
-The current build is for Windows. A macOS release is not ready yet.
+The main installer is for Windows; Apple Silicon downloads are listed above.
 
 The plugin captures canvas states rather than every individual Photoshop action. Several rapid changes may be combined into one frame. Some Photoshop versions may briefly change the cursor during capture. Original-size recording of large canvases requires more processing time and disk space.
 

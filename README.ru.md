@@ -20,7 +20,13 @@ Windows x64 · Python включён · ревизия 24.
 
 ### Интерфейс
 
-<table><tr><th>Запись</th><th>Таймлапс и экспорт</th></tr><tr><td><img src="assets/recorder.png" alt="Панель записи PScreenRec в Photoshop" width="360"></td><td><img src="assets/timelapse.png" alt="Выбор кадров, обрезка и экспорт MP4" width="360"></td></tr></table>
+### Mac (Apple Silicon)
+
+**[Скачать без Creative Cloud — экспериментальная версия](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**
+
+[Дополнительно: установка через Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg) · **[Как установить на Mac](MAC_INSTALL.md#по-русски)**
+
+macOS 15+, Apple Silicon. Python и FFmpeg включены. Установщик без подписи Apple. Установка без CC экспериментальная: запись при полностью отсутствующем CC ещё не проверена. Независимые установщики: 0.5.10.
 
 ### Примеры видео
 
@@ -78,7 +84,7 @@ PScreenRec бесплатный. Если плагин оказался поле
 
 ## Совместимость и ограничения
 
-Текущая сборка предназначена для Windows. Версия для macOS пока не готова.
+Основная сборка — Windows. Для Mac доступны сборки Apple Silicon с ограничениями, указанными выше.
 
 Плагин сохраняет состояния холста, а не каждое действие Photoshop: несколько быстрых изменений могут попасть в один кадр. На отдельных версиях Photoshop во время захвата возможно кратковременное изменение курсора. Большие холсты в исходном качестве требуют больше времени и места на диске.
 

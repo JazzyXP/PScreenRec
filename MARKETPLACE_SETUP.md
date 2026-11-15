@@ -27,3 +27,7 @@ Remove the Marketplace plugin through Creative Cloud Desktop. Remove PScreenRec 
 Support: denp90@gmail.com. Never attach your connection token to a public issue.
 
 The helper installer has no tip or payment button. All recording and export features are available without payment. Adobe's review team confirmed on 11 November 2026 that optional non-blocking support links are permitted; no payment is needed for any feature.
+
+## Mac (Apple Silicon)
+
+The Mac Marketplace candidate is 0.5.13 and requires macOS 15+, Photoshop 27.10+ and the separate [Mac helper 0.5.10](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/PScreenRec-Helper-0.5.10-Mac-arm64-Marketplace.dmg). See [Mac installation and security prompts](MAC_INSTALL.md). The helper installs no Photoshop plugin; obtain the panel through Adobe after approval. This channel was tested locally on macOS 15.6.1 / Photoshop 27.10.0, not through a published store listing. Do not run both independent and Marketplace panels.
