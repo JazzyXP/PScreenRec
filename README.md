@@ -4,27 +4,20 @@
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.6-555) [![Downloads](https://img.shields.io/github/downloads/JazzyXP/PScreenRec/v0.5.6/PScreenRec-0.5.6-Setup.exe?label=downloads&displayAssetName=false&color=0078D4&cacheSeconds=300)](https://github.com/JazzyXP/PScreenRec/releases/tag/v0.5.6)
 
-**A free Photoshop plugin for recording drawing timelapses on Windows.**
+**A free Photoshop plugin for recording drawing timelapses in Photoshop.**
 
 PScreenRec captures your drawing process much like Procreate and Clip Studio Paint: it takes snapshots of the canvas as you make changes and turns them into a timelapse. No need to set up OBS or other screen recording software! Photoshop panels and the cursor stay out of the recording.
 
 Export your timelapse as MP4. Recordings stay on your computer.
 
-### Download for Windows
+## Download
 
-**[Download installer 0.5.6 — no Creative Cloud required](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe)**
+| Platform | Installer | Version | Requirements |
+| --- | --- | --- | --- |
+| Windows | **[Download for Windows](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe)** | 0.5.6 | Windows 10 / 11, x64 |
+| Mac | **[Download for Mac](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)** | 0.5.10 | macOS 15+, Apple Silicon |
 
-The button downloads the current Windows installer directly. No other files are needed.
-
-Windows x64 · Python included · revision 24.
-
-### Mac (Apple Silicon)
-
-**[Download without Creative Cloud - experimental](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**
-
-[Alternative: install through Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg) - **[Mac installation instructions](MAC_INSTALL.md)**
-
-macOS 15+ - Apple Silicon only - Python and FFmpeg included. Unsigned installer. The no-CC installer is experimental: recording with CC completely absent has not been verified. Independent installers: 0.5.10.
+Download one installer for your computer. It includes the plugin and its local helper; a separate Python installation is not needed. Installation instructions for both platforms are below.
 
 ### Interface
 
@@ -53,16 +46,32 @@ Save your drawing as a PSD or PSB after starting the recording. You can then clo
 
 You can hide the plugin panel without affecting the recording.
 
-## Windows installation
+## Installation
 
-The installer selects a default language from Windows: English, Russian, German, French, Spanish, Brazilian Portuguese or Ukrainian. You can change it at startup. Other system languages default to English. The plugin panel still follows the Photoshop language (Russian or English).
+### Windows
 
 1. Save your drawings and close Photoshop.
-2. Run the PScreenRec installer and follow the prompts.
+2. Run the downloaded EXE and follow the prompts.
 3. Open Photoshop → **Plugins → PScreenRec → PScreenRec**.
-4. Enable **Record this document** for the current drawing. Enable **Record new documents** to record subsequently created files.
+4. Enable **Record this document**. To automatically record future new files, enable **Record new documents**.
 
-The installer without Creative Cloud includes Python. You do not need to install Creative Cloud, Python or UXP Developer Tool separately. An internet connection is required for the initial FFmpeg download.
+Creative Cloud, Python and UXP Developer Tool do not need to be installed separately. Internet access is needed for the initial FFmpeg download. The installer offers English, Russian, German, French, Spanish, Brazilian Portuguese and Ukrainian; the panel uses English or Russian according to Photoshop.
+
+### Mac
+
+1. Save your drawings and quit Photoshop.
+2. Open the downloaded DMG, run the Install application inside and follow the prompts.
+3. If macOS blocks this unsigned installer, use **System Settings → Privacy & Security → Open Anyway** for this application. See the [Mac installation guide](MAC_INSTALL.md) for the exact steps and Input Monitoring permission.
+4. Open Photoshop → **Plugins → PScreenRec → PScreenRec** and enable **Record this document**.
+
+The main Mac download installs the plugin and helper directly. Python and FFmpeg are included. No Homebrew or UXP Developer Tool is needed.
+
+<details>
+<summary>Alternative Mac installer: through Creative Cloud</summary>
+
+[Download the Mac installer for Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg). Choose this option if you prefer Adobe's installation mechanism; it requires Creative Cloud Desktop. It installs the same independent plugin and helper. Use one Mac installer, not both.
+
+</details>
 
 ## Recording quality
 
@@ -86,7 +95,7 @@ PScreenRec is free. If you find it useful, you can [leave a tip](https://app.lav
 
 ## Availability and limitations
 
-The main installer is for Windows; Apple Silicon downloads are listed above.
+Windows: version 0.5.6, Photoshop 2024 (25.0) or later. Mac: installers 0.5.10 for Apple Silicon and macOS 15+. Intel has not been tested. The direct Mac installer does not invoke CC, but recording with CC completely absent has not been verified. Mac installers are unsigned and not notarized.
 
 The plugin captures canvas states rather than every individual Photoshop action. Several rapid changes may be combined into one frame. Some Photoshop versions may briefly change the cursor during capture. Original-size recording of large canvases requires more processing time and disk space.
 
@@ -94,6 +103,6 @@ The plugin captures canvas states rather than every individual Photoshop action.
 
 [Open an issue](https://github.com/JazzyXP/PScreenRec/issues/new).
 
-Include your Photoshop and Windows versions, canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
+Include your Photoshop and operating system versions (Windows or macOS), canvas dimensions, recording quality and steps to reproduce. Remove private information from screenshots before sharing them.
 
 [Privacy](PRIVACY.md) · [Use information](TERMS.md) · [Third-party components](THIRD_PARTY.md)

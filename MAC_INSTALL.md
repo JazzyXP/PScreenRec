@@ -1,13 +1,15 @@
-# PScreenRec on Mac / Установка на Mac
+# Install PScreenRec on Mac
+
+[English](MAC_INSTALL.md) · [Русский](MAC_INSTALL.ru.md)
 
 Apple Silicon (arm64), macOS 15+. Intel is not supported by these downloads. Python and FFmpeg are included; Homebrew and UXP Developer Tool are not required.
 
 ## Downloads
 
-- **[Without Creative Cloud — experimental](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**. The installer does not invoke CC/UPIA. Recording was tested with CC present; a Photoshop installation with CC completely absent has not yet been verified.
+- **[Download for Mac](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**. The installer does not invoke CC/UPIA. Recording was tested with CC present; a Photoshop installation with CC completely absent has not yet been verified.
 - [Install through Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg). Installs the independent plugin and helper using Adobe's installer; requires Creative Cloud Desktop.
 
-Both independent installers are version 0.5.10. The separate Marketplace plugin is 0.5.13; these version numbers describe different packages.
+Both installers are version 0.5.10 and include the plugin and helper. Choose one, then follow the same installation steps below.
 
 ## Install
 
@@ -20,19 +22,11 @@ Both independent installers are version 0.5.10. The separate Marketplace plugin 
 
 Recordings are stored in your selected `ProcessRecorderData` folder; source frames are in `recordings.sqlite3`, exports in `exports`. Keep this folder when updating or uninstalling. Use the supplied removal command for the chosen installer; do not delete recordings unless you intend to lose them. Do not enable independent and Marketplace panels at the same time.
 
-Marketplace users need the separate [Mac helper](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/PScreenRec-Helper-0.5.10-Mac-arm64-Marketplace.dmg), not either full independent installer. See [Marketplace setup](MARKETPLACE_SETUP.md). The Marketplace edition is still a draft, not an approved store listing.
 
-## По-русски
 
-Основной вариант — первая ссылка **без Creative Cloud**, дополнительный — установка через CC. Вариант без CC пока экспериментальный: установщик обходится без CC, но запись на Mac с полностью отсутствующим CC ещё не проверена. Оба независимых установщика имеют версию 0.5.10; магазинный плагин — 0.5.13.
 
-1. Сохрани рисунки и закрой Photoshop. Скачай один DMG, открой его и запусти приложение Install внутри.
-2. Следуй подсказкам. При первой установке выбери родительскую папку для `ProcessRecorderData`. Python и FFmpeg уже внутри, отдельно скачивать их не нужно.
-3. Если macOS блокирует неподписанный установщик, открой **Системные настройки → Конфиденциальность и безопасность → Безопасность → Всё равно открыть** рядом с именем именно этого приложения. Подтверди пароль или Touch ID. Не отключай защиту системы. При предупреждении о вредоносном ПО или повреждении файла остановись и сообщи автору точный текст.
-4. Если помощник запросит разрешение **Мониторинг ввода**, разреши его комплектному Python.app по указанному пути.
-5. В Photoshop открой **Plugins → PScreenRec → PScreenRec** и включи запись документа. Если потребуется подключение, выбери `~/Library/Application Support/ProcessRecorder/connection.json`; этот файл никому не передавай.
-6. После начала записи сохрани рисунок в PSD или PSB. Не удаляй папку записей при обновлении или удалении программы.
+## Compatibility
 
-Сборки для Apple Silicon, macOS 15+. Intel не проверен. По отчётам с Mac магазинная версия проверена на macOS 15.6.1 и Photoshop 27.10.0; это не обещание проверки всех версий. Короткая смена курсора при захвате остаётся известным ограничением.
+The direct installer avoids CC/UPIA; recording was tested with CC present. Recording on a Mac with CC completely absent has not yet been verified. These downloads are independent installers, not the Adobe Marketplace helper.
 
-[Optional download checksums](MAC_DOWNLOADS_SHA256.txt) ? [Mac third-party notices](MAC_THIRD_PARTY.md)
+[Download checksums](MAC_DOWNLOADS_SHA256.txt) · [Third-party notices](MAC_THIRD_PARTY.md)
