@@ -2,7 +2,7 @@
 
 [English](README.md) · [Русский](README.ru.md)
 
-![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.6-555) [![Downloads](https://img.shields.io/github/downloads/JazzyXP/PScreenRec/v0.5.6/PScreenRec-0.5.6-Setup.exe?label=downloads&displayAssetName=false&color=0078D4&cacheSeconds=300)](https://github.com/JazzyXP/PScreenRec/releases/tag/v0.5.6)
+![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.9-555) [![Downloads](https://img.shields.io/github/downloads/JazzyXP/PScreenRec/v0.5.9/PScreenRec-0.5.9-Setup.exe?label=downloads&displayAssetName=false&color=0078D4&cacheSeconds=300)](https://github.com/JazzyXP/PScreenRec/releases/tag/v0.5.9)
 
 **Бесплатный плагин Photoshop для записи таймлапсов рисования в Photoshop.**
 
@@ -14,10 +14,12 @@
 
 | Платформа | Установщик | Версия | Требования |
 | --- | --- | --- | --- |
-| Windows | **[Скачать для Windows](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe)** | 0.5.6 | Windows 10 / 11, x64 |
+| Windows | **[Скачать для Windows](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)** | 0.5.9 | Windows 10 / 11, x64 |
 | Mac | **[Скачать для Mac](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)** | 0.5.10 | macOS 15+, Apple Silicon |
 
 Скачайте один установщик для своего компьютера. Внутри плагин и его локальный помощник; отдельно устанавливать Python не нужно. Инструкции для обеих платформ — ниже.
+
+[Что нового в Windows 0.5.9](CHANGELOG.md#windows-059-ru)
 
 ### Интерфейс
 
@@ -101,7 +103,7 @@ PScreenRec бесплатный. Если плагин оказался поле
 
 ## Совместимость и ограничения
 
-Windows: версия 0.5.6, Photoshop 2024 (25.0) и выше. Mac: установщики 0.5.10 для Apple Silicon и macOS 15+. Intel не проверен. Прямая установка на Mac не вызывает CC, но запись при полностью отсутствующем CC ещё не проверена. Mac-установщики не подписаны Apple и не нотариализованы.
+Windows: версия 0.5.9, Photoshop 2024 (25.0) и выше. Mac: установщики 0.5.10 для Apple Silicon и macOS 15+. Intel не проверен. Прямая установка на Mac не вызывает CC, но запись при полностью отсутствующем CC ещё не проверена. Mac-установщики не подписаны Apple и не нотариализованы.
 
 Плагин сохраняет состояния холста, а не каждое действие Photoshop: несколько быстрых изменений могут попасть в один кадр. На отдельных версиях Photoshop во время захвата возможно кратковременное изменение курсора. Большие холсты в исходном качестве требуют больше времени и места на диске.
 

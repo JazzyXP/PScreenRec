@@ -2,7 +2,7 @@
 
 [English](README.md) · [Русский](README.ru.md)
 
-![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.6-555) [![Downloads](https://img.shields.io/github/downloads/JazzyXP/PScreenRec/v0.5.6/PScreenRec-0.5.6-Setup.exe?label=downloads&displayAssetName=false&color=0078D4&cacheSeconds=300)](https://github.com/JazzyXP/PScreenRec/releases/tag/v0.5.6)
+![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.9-555) [![Downloads](https://img.shields.io/github/downloads/JazzyXP/PScreenRec/v0.5.9/PScreenRec-0.5.9-Setup.exe?label=downloads&displayAssetName=false&color=0078D4&cacheSeconds=300)](https://github.com/JazzyXP/PScreenRec/releases/tag/v0.5.9)
 
 **A free Photoshop plugin for recording drawing timelapses in Photoshop.**
 
@@ -14,10 +14,12 @@ Export your timelapse as MP4. Recordings stay on your computer.
 
 | Platform | Installer | Version | Requirements |
 | --- | --- | --- | --- |
-| Windows | **[Download for Windows](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.6/PScreenRec-0.5.6-Setup.exe)** | 0.5.6 | Windows 10 / 11, x64 |
+| Windows | **[Download for Windows](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)** | 0.5.9 | Windows 10 / 11, x64 |
 | Mac | **[Download for Mac](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)** | 0.5.10 | macOS 15+, Apple Silicon |
 
 Download one installer for your computer. It includes the plugin and its local helper; a separate Python installation is not needed. Installation instructions for both platforms are below.
+
+[What is new in Windows 0.5.9](CHANGELOG.md#windows-059)
 
 ### Interface
 
@@ -95,7 +97,7 @@ PScreenRec is free. If you find it useful, you can [leave a tip](https://app.lav
 
 ## Availability and limitations
 
-Windows: version 0.5.6, Photoshop 2024 (25.0) or later. Mac: installers 0.5.10 for Apple Silicon and macOS 15+. Intel has not been tested. The direct Mac installer does not invoke CC, but recording with CC completely absent has not been verified. Mac installers are unsigned and not notarized.
+Windows: version 0.5.9, Photoshop 2024 (25.0) or later. Mac: installers 0.5.10 for Apple Silicon and macOS 15+. Intel has not been tested. The direct Mac installer does not invoke CC, but recording with CC completely absent has not been verified. Mac installers are unsigned and not notarized.
 
 The plugin captures canvas states rather than every individual Photoshop action. Several rapid changes may be combined into one frame. Some Photoshop versions may briefly change the cursor during capture. Original-size recording of large canvases requires more processing time and disk space.
 
