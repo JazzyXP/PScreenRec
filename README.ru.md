@@ -11,24 +11,17 @@
 
 ## Скачать
 
-| Платформа | Установщик | Версия | Требования |
-| --- | --- | --- | --- |
-| Windows | **[Скачать для Windows](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)** | 0.5.9 | Windows 10 / 11, x64 |
-| Mac | **[Скачать для Mac](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)** | 0.5.10 | macOS 15+, Apple Silicon |
+| Платформа | Без Creative Cloud | Через Creative Cloud | Версия / что нового | Требования |
+| --- | --- | --- | --- | --- |
+| Windows | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)** · [Инструкция](#windows) | На проверке Adobe · [Инструкция](MARKETPLACE_SETUP.md#windows) | [0.5.9](CHANGELOG.md#windows-059-ru) | Windows 10 / 11, x64 |
+| Mac | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)** · [Инструкция](MAC_INSTALL.ru.md) | [Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg) · [Инструкция](MAC_INSTALL.ru.md#установка) | [0.5.10](CHANGELOG.md#mac-0510-ru) | macOS 15+, Apple Silicon |
 
 Скачайте один установщик для своего компьютера. Внутри плагин и его локальный помощник; отдельно устанавливать Python не нужно. Инструкции для обеих платформ — ниже.
 
-[Что нового в Windows 0.5.9](CHANGELOG.md#windows-059-ru)
 
 ### Интерфейс
 
-### Mac (Apple Silicon)
-
-**[Скачать без Creative Cloud — экспериментальная версия](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**
-
-[Дополнительно: установка через Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg) · **[Как установить на Mac](MAC_INSTALL.md#по-русски)**
-
-macOS 15+, Apple Silicon. Python и FFmpeg включены. Установщик без подписи Apple. Установка без CC экспериментальная: запись при полностью отсутствующем CC ещё не проверена. Независимые установщики: 0.5.10.
+<table><tr><th>Запись</th><th>Таймлапс и экспорт</th></tr><tr><td><img src="assets/recorder.png" alt="Панель записи" width="360"></td><td><img src="assets/timelapse.png" alt="Таймлапс и экспорт" width="360"></td></tr></table>
 
 ### Примеры видео
 
@@ -73,12 +66,6 @@ macOS 15+, Apple Silicon. Python и FFmpeg включены. Установщи�
 
 Основная Mac-загрузка устанавливает плагин и помощник напрямую. Python и FFmpeg включены. Homebrew и UXP Developer Tool не нужны.
 
-<details>
-<summary>Дополнительный установщик для Mac: через Creative Cloud</summary>
-
-[Скачать Mac-установщик для Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg). Этот вариант использует механизм установки Adobe и требует Creative Cloud Desktop. Он устанавливает тот же независимый плагин и помощник. Выберите один Mac-установщик, ставить оба не нужно.
-
-</details>
 
 ## Какое качество выбрать
 

@@ -11,14 +11,13 @@ Export your timelapse as MP4. Recordings stay on your computer.
 
 ## Download
 
-| Platform | Installer | Version | Requirements |
-| --- | --- | --- | --- |
-| Windows | **[Download for Windows](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)** | 0.5.9 | Windows 10 / 11, x64 |
-| Mac | **[Download for Mac](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)** | 0.5.10 | macOS 15+, Apple Silicon |
+| Platform | Without Creative Cloud | Through Creative Cloud | Version / what's new | Requirements |
+| --- | --- | --- | --- | --- |
+| Windows | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)** · [Instructions](#windows) | Adobe review pending · [Instructions](MARKETPLACE_SETUP.md#windows) | [0.5.9](CHANGELOG.md#windows-059) | Windows 10 / 11, x64 |
+| Mac | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)** · [Instructions](MAC_INSTALL.md) | [Download](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg) · [Instructions](MAC_INSTALL.md#installation) | [0.5.10](CHANGELOG.md#mac-0510) | macOS 15+, Apple Silicon |
 
 Download one installer for your computer. It includes the plugin and its local helper; a separate Python installation is not needed. Installation instructions for both platforms are below.
 
-[What is new in Windows 0.5.9](CHANGELOG.md#windows-059)
 
 ### Interface
 
@@ -67,12 +66,6 @@ Creative Cloud, Python and UXP Developer Tool do not need to be installed separa
 
 The main Mac download installs the plugin and helper directly. Python and FFmpeg are included. No Homebrew or UXP Developer Tool is needed.
 
-<details>
-<summary>Alternative Mac installer: through Creative Cloud</summary>
-
-[Download the Mac installer for Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg). Choose this option if you prefer Adobe's installation mechanism; it requires Creative Cloud Desktop. It installs the same independent plugin and helper. Use one Mac installer, not both.
-
-</details>
 
 ## Recording quality
 

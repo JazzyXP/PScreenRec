@@ -2,6 +2,24 @@
 
 [English](#windows-059) · [Русский](#windows-059-ru)
 
+## Mac 0.5.10
+
+- Standalone Mac installers include the plugin, local helper, Python and FFmpeg.
+- Choose direct installation or installation through Creative Cloud Desktop.
+- Canvas recording, continuation across PSD/PSB sessions, trim/crop preview and MP4 export through the system save dialog.
+- English/Russian interface follows Photoshop. Apple Silicon, macOS 15+; Photoshop 27.10+ is recommended.
+
+The helper is unsigned and not notarized; follow the app-specific opening instructions. Recording with Creative Cloud completely absent has not been verified. The Windows folder and diagnostic shortcuts are not included in this Mac version.
+
+## Mac 0.5.10 (RU)
+
+- Установщики включают плагин, локальный помощник, Python и FFmpeg.
+- Доступна прямая установка или установка через Creative Cloud Desktop.
+- Запись холста, продолжение записи PSD/PSB, выбор кадров, кроп и экспорт MP4 через системное окно сохранения.
+- Русский или английский интерфейс по языку Photoshop. Apple Silicon, macOS 15+; рекомендуется Photoshop 27.10+.
+
+Помощник без подписи и нотариализации Apple; порядок открытия описан в инструкции. Запись при полностью отсутствующем Creative Cloud отдельно не проверена. Кнопок папки кадров и диагностики из Windows в этой Mac-версии пока нет.
+
 ## Windows 0.5.9
 
 - Added a folder icon beside the frame count. Click it to prepare JPEG copies of the current document's frames and open their folder. The source frames remain in the local database.

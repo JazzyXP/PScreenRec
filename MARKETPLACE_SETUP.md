@@ -1,12 +1,12 @@
 # PScreenRec Helper for Adobe Marketplace
 
-This guide is for the Windows UXP plugin installed from Adobe Creative Cloud Marketplace. The Marketplace plugin requires a local helper for storing frames and encoding MP4 videos.
+This guide is for the Windows and Mac UXP plugin installed from Adobe Creative Cloud Marketplace. The Marketplace plugin requires a local helper for storing frames and encoding MP4 videos.
 
-This edition is being prepared for Adobe review and is not yet published in the Marketplace. During review, use the separately supplied Marketplace CCX. A directly installed CCX is not evidence of Marketplace approval.
+The combined Windows/Mac version 0.5.14 has been submitted for Adobe review and is not yet published in the Marketplace. During review, use the separately supplied Marketplace CCX. A directly installed CCX is not evidence of Marketplace approval. To install immediately, use the independent installers in the main download table.
 
 The Marketplace helper installer is separate from the complete independent installer on the main project page. It does not install, sideload or remove a Photoshop plugin. Do not use the independent installer as the Marketplace companion installer.
 
-## Install
+## Windows
 
 1. Install PScreenRec from Adobe Creative Cloud Marketplace.
 2. Save your drawings and close Photoshop.
@@ -30,4 +30,6 @@ The helper installer has no tip or payment button. All recording and export feat
 
 ## Mac (Apple Silicon)
 
-The Mac Marketplace candidate is 0.5.13 and requires macOS 15+, Photoshop 27.10+ and the separate [Mac helper 0.5.10](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/PScreenRec-Helper-0.5.10-Mac-arm64-Marketplace.dmg). See [Mac installation and security prompts](MAC_INSTALL.md). The helper installs no Photoshop plugin; obtain the panel through Adobe after approval. This channel was tested locally on macOS 15.6.1 / Photoshop 27.10.0, not through a published store listing. Do not run both independent and Marketplace panels.
+The combined Marketplace submission 0.5.14 includes Mac support and requires macOS 15+, Photoshop 27.10+ and the separate [Mac helper 0.5.10](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/PScreenRec-Helper-0.5.10-Mac-arm64-Marketplace.dmg). See [Mac installation and security prompts](MAC_INSTALL.md). The helper installs no Photoshop plugin; obtain the panel through Adobe after approval. The earlier Mac 0.5.13 channel was tested locally on macOS 15.6.1 / Photoshop 27.10.0. The merged 0.5.14 package has not yet been retested on physical Mac hardware. Do not run both independent and Marketplace panels.
+
+The full Mac Creative Cloud installer linked in the main table installs the independent plugin using Adobe's installation mechanism. It is available now and is distinct from the Marketplace listing awaiting approval.
