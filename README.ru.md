@@ -101,4 +101,4 @@ Windows: версия 0.5.9, Photoshop 2024 (25.0) и выше. Mac: устан�
 
 [Конфиденциальность](PRIVACY.md) · [Использование](TERMS.md) · [Сторонние компоненты](THIRD_PARTY.md)
 
-[![Windows downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fwindows.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases) [![Mac downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fmac.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases)
+[![Windows downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fwindows.json%3Frevision%3Dexclude-tests-1&cacheSeconds=300)](https://github.com/JazzyXP/PScreenRec/releases) [![Mac downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fmac.json%3Frevision%3Dexclude-tests-1&cacheSeconds=300)](https://github.com/JazzyXP/PScreenRec/releases)
