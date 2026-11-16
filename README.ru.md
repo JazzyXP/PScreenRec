@@ -2,7 +2,6 @@
 
 [English](README.md) · [Русский](README.ru.md)
 
-[![Windows downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fwindows.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases) [![Mac downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fmac.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases)
 
 **Бесплатный плагин Photoshop для записи таймлапсов рисования в Photoshop.**
 
@@ -114,3 +113,5 @@ Windows: версия 0.5.9, Photoshop 2024 (25.0) и выше. Mac: устан�
 Укажите версию Photoshop и системы (Windows или macOS), размер холста, выбранное качество записи и шаги, после которых появляется проблема. Прикладывайте скриншот сообщения об ошибке без личных данных.
 
 [Конфиденциальность](PRIVACY.md) · [Использование](TERMS.md) · [Сторонние компоненты](THIRD_PARTY.md)
+
+[![Windows downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fwindows.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases) [![Mac downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fmac.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases)
