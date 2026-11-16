@@ -11,7 +11,7 @@
 
 ## Скачать
 
-| Платформа | Без Creative Cloud | Через Creative Cloud | Версия / что нового | Требования |
+| Платформа | Прямая установка | Установка через Adobe CC | Версия / что нового | Требования |
 | --- | --- | --- | --- | --- |
 | Windows | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)**<br>[Инструкция](#windows) | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup-CC.exe)**<br>[Инструкция](CC_INSTALL.md#windows-ru) | [0.5.9](CHANGELOG.md#windows-059-ru) | Windows 10 / 11, x64 |
 | Mac | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**<br>[Инструкция](MAC_INSTALL.ru.md) | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg)**<br>[Инструкция](MAC_INSTALL.ru.md#установка) | [0.5.10](CHANGELOG.md#mac-0510-ru) | macOS 15+, Apple Silicon |

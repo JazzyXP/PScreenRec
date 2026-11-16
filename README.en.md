@@ -11,7 +11,7 @@ Export your timelapse as MP4. Recordings stay on your computer.
 
 ## Download
 
-| Platform | Without Creative Cloud | Through Creative Cloud | Version / what's new | Requirements |
+| Platform | Direct install | Install via Adobe CC | Version / what's new | Requirements |
 | --- | --- | --- | --- | --- |
 | Windows | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)**<br>[Instructions](#windows) | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup-CC.exe)**<br>[Instructions](CC_INSTALL.md#windows) | [0.5.9](CHANGELOG.md#windows-059) | Windows 10 / 11, x64 |
 | Mac | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**<br>[Instructions](MAC_INSTALL.md) | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg)**<br>[Instructions](MAC_INSTALL.md#installation) | [0.5.10](CHANGELOG.md#mac-0510) | macOS 15+, Apple Silicon |
