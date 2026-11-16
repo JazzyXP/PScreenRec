@@ -2,7 +2,7 @@
 
 [English](README.md) · [Русский](README.ru.md)
 
-![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4) ![Photoshop](https://img.shields.io/badge/Adobe-Photoshop-31A8FF) ![Version](https://img.shields.io/badge/version-0.5.9-555) [![Windows downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fwindows.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases) [![Mac downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fmac.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases)
+[![Windows downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fwindows.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases) [![Mac downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJazzyXP%2FPScreenRec%2Fmain%2Fassets%2Fdownloads%2Fmac.json&cacheSeconds=3600)](https://github.com/JazzyXP/PScreenRec/releases)
 
 **Бесплатный плагин Photoshop для записи таймлапсов рисования в Photoshop.**
 

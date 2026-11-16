@@ -29,6 +29,6 @@ folder = Path('assets/downloads')
 folder.mkdir(parents=True, exist_ok=True)
 for platform, count in counts.items():
     badge = {'schemaVersion': 1, 'label': 'Windows downloads' if platform == 'windows' else 'Mac downloads',
-             'message': str(count), 'color': '0078D4' if platform == 'windows' else '555'}
+             'message': str(count), 'color': '0078D4' if platform == 'windows' else '8957E5'}
     (folder / f'{platform}.json').write_text(json.dumps(badge, indent=2) + '\n', encoding='utf-8')
 print(json.dumps(counts))
