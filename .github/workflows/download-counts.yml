@@ -1,0 +1,31 @@
+name: Update download counts
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  release:
+    types: [published]
+permissions:
+  contents: write
+concurrency:
+  group: download-counts
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python .github/scripts/download_counts.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Save counts
+        run: |
+          git add assets/downloads
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'JazzyXP'
+          git config user.email '25202300+JazzyXP@users.noreply.github.com'
+          git commit -m 'Update download counts'
+          git push
