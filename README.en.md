@@ -13,10 +13,10 @@ Export your timelapse as MP4. Recordings stay on your computer.
 
 | Platform | Direct install | Install via Adobe CC | Version / what's new | Requirements |
 | --- | --- | --- | --- | --- |
-| Windows | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)**<br>[Instructions](#windows) | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup-CC.exe)**<br>[Instructions](CC_INSTALL.md#windows) | [0.5.9](CHANGELOG.md#windows-059) | Windows 10 / 11, x64 |
-| Mac | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**<br>[Instructions](MAC_INSTALL.md) | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg)**<br>[Instructions](MAC_INSTALL.md#installation) | [0.5.10](CHANGELOG.md#mac-0510) | macOS 15+, Apple Silicon |
+| Windows | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)**<br>[Instructions](WINDOWS_INSTALL.md#direct-install) | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup-CC.exe)**<br>[Instructions](WINDOWS_INSTALL.md#install-via-adobe-cc) | [0.5.9](CHANGELOG.md#windows-059) | Windows 10 / 11, x64 |
+| Mac | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**<br>[Instructions](MAC_INSTALL.md#direct-install) | **[Download](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg)**<br>[Instructions](MAC_INSTALL.md#install-via-adobe-cc) | [0.5.10](CHANGELOG.md#mac-0510) | macOS 15+, Apple Silicon |
 
-Download one installer for your computer. It includes the plugin and its local helper; a separate Python installation is not needed. Installation instructions for both platforms are below.
+Download one installer for your computer. It includes the plugin and its local helper; a separate Python installation is not needed. Use the Instructions link under your chosen download.
 
 
 ### Interface
@@ -48,24 +48,9 @@ You can hide the plugin panel without affecting the recording.
 
 ## Installation
 
-### Windows
+[Windows instructions](WINDOWS_INSTALL.md) · [Mac instructions](MAC_INSTALL.md)
 
-1. Save your drawings and close Photoshop.
-2. Run the downloaded EXE and follow the prompts.
-3. Open Photoshop → **Plugins → PScreenRec → PScreenRec**.
-4. Enable **Record this document**. To automatically record future new files, enable **Record new documents**.
-
-Creative Cloud, Python and UXP Developer Tool do not need to be installed separately. Internet access is needed for the initial FFmpeg download. The installer offers English, Russian, German, French, Spanish, Brazilian Portuguese and Ukrainian; the panel uses English or Russian according to Photoshop.
-
-### Mac
-
-1. Save your drawings and quit Photoshop.
-2. Open the downloaded DMG, run the Install application inside and follow the prompts.
-3. If macOS blocks this unsigned installer, use **System Settings → Privacy & Security → Open Anyway** for this application. See the [Mac installation guide](MAC_INSTALL.md) for the exact steps and Input Monitoring permission.
-4. Open Photoshop → **Plugins → PScreenRec → PScreenRec** and enable **Record this document**.
-
-The main Mac download installs the plugin and helper directly. Python and FFmpeg are included. No Homebrew or UXP Developer Tool is needed.
-
+Each guide covers direct installation and installation via Adobe CC. Choose one method for your computer.
 
 ## Recording quality
 

@@ -2,31 +2,38 @@
 
 [English](MAC_INSTALL.md) · [Русский](MAC_INSTALL.ru.md)
 
-Apple Silicon (arm64), macOS 15+. Intel is not supported by these downloads. Python and FFmpeg are included; Homebrew and UXP Developer Tool are not required.
+Apple Silicon (M1 or newer), macOS 15+. Photoshop 27.10+ is recommended. These downloads do not support Intel Macs. Choose one installation method. Both installers are 0.5.10 and include the same independent plugin, local helper, Python and FFmpeg.
 
-## Downloads
+## Direct install
 
-- **[Download for Mac](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**. The installer does not invoke CC/UPIA. Recording was tested with CC present; a Photoshop installation with CC completely absent has not yet been verified.
-- [Install through Creative Cloud](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg). Installs the independent plugin and helper using Adobe's installer; requires Creative Cloud Desktop.
+1. Save your drawings and quit Photoshop.
+2. [Download the direct installer](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg) and open the DMG.
+3. Run the Install application inside and follow the prompts. On first installation, choose the parent folder for ProcessRecorderData.
+4. Follow the security and first-launch steps below.
 
-Both installers are version 0.5.10 and include the plugin and helper. Choose one, then follow the same installation steps below.
+The installer does not invoke Creative Cloud or Adobe's installation service. Recording with Creative Cloud completely absent has not yet been verified.
 
-## Install
+## Install via Adobe CC
 
-1. Save your drawings and quit Photoshop. Download one DMG above and open it in Finder.
-2. Run the Install application inside the DMG and follow its instructions. On first installation, choose the parent folder for `ProcessRecorderData`; updates retain the existing location.
-3. The installer is unsigned and not notarized. If macOS blocks it and you trust this download, follow [Apple's instructions](https://support.apple.com/en-us/102445): System Settings → Privacy & Security → Security → Open Anyway for this specific installer. You may need to attempt launching it first. Confirm with your password or Touch ID. Do not disable Gatekeeper/SIP or remove quarantine with Terminal commands.
-4. If requested, allow the helper's bundled Python.app under Input Monitoring. The installed helper provides its path. Capture is blocked without the required permission.
-5. Open Photoshop → Plugins → PScreenRec → PScreenRec. If prompted for a connection, select `~/Library/Application Support/ProcessRecorder/connection.json`. Never share this private file.
-6. Enable **Record this document**. Save the drawing as PSD/PSB after starting recording to keep its link to the local timelapse.
+1. Install Creative Cloud Desktop and Photoshop, and sign in to Creative Cloud.
+2. Save your drawings and quit Photoshop.
+3. [Download the CC installer](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg), open the DMG and run Install inside. Follow its prompts.
+4. Follow the security and first-launch steps below.
 
-Recordings are stored in your selected `ProcessRecorderData` folder; source frames are in `recordings.sqlite3`, exports in `exports`. Keep this folder when updating or uninstalling. Use the supplied removal command for the chosen installer; do not delete recordings unless you intend to lose them. Do not enable independent and Marketplace panels at the same time.
+This uses Adobe's installation mechanism and does not require a published Marketplace listing. Do not install both variants.
 
+## Security and first launch
 
+1. The installer is unsigned and not notarized. If macOS blocks it because the developer cannot be verified, open **System Settings → Privacy & Security → Open Anyway** for this application. Confirm with your password or Touch ID. If macOS reports malware or a damaged file, stop and report the exact message. Do not disable system protection.
+2. If requested, allow the helper's bundled Python.app under **Input Monitoring**, using the path shown by the installer.
+3. Open Photoshop → **Plugins → PScreenRec → PScreenRec** and enable **Record this document**.
+4. If a connection file is requested, select `~/Library/Application Support/ProcessRecorder/connection.json`. Never share this private file.
+5. Save the drawing as PSD/PSB after starting recording to continue the same timelapse later.
 
+## Updating and recordings
 
-## Compatibility
+Quit Photoshop and run the chosen installer over the previous installation. Keep your selected ProcessRecorderData folder: it contains the recordings, with source frames in recordings.sqlite3 and videos in exports. Do not enable independent and Marketplace panels at the same time.
 
-The direct installer avoids CC/UPIA; recording was tested with CC present. Recording on a Mac with CC completely absent has not yet been verified. These downloads are independent installers, not the Adobe Marketplace helper.
+For large canvases, use **High**. A brief cursor change during capture remains a known limitation. The Mac installers do not yet include the Windows frame-folder and diagnostics shortcuts. The panel uses English or Russian according to Photoshop.
 
-[Download checksums](MAC_DOWNLOADS_SHA256.txt) · [Third-party notices](MAC_THIRD_PARTY.md)
+[Third-party notices](MAC_THIRD_PARTY.md) · [Back to PScreenRec](README.md)

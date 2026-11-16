@@ -13,10 +13,10 @@
 
 | Платформа | Прямая установка | Установка через Adobe CC | Версия / что нового | Требования |
 | --- | --- | --- | --- | --- |
-| Windows | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)**<br>[Инструкция](#windows) | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup-CC.exe)**<br>[Инструкция](CC_INSTALL.md#windows-ru) | [0.5.9](CHANGELOG.md#windows-059-ru) | Windows 10 / 11, x64 |
-| Mac | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**<br>[Инструкция](MAC_INSTALL.ru.md) | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg)**<br>[Инструкция](MAC_INSTALL.ru.md#установка) | [0.5.10](CHANGELOG.md#mac-0510-ru) | macOS 15+, Apple Silicon |
+| Windows | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup.exe)**<br>[Инструкция](WINDOWS_INSTALL.ru.md#прямая-установка) | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/v0.5.9/PScreenRec-0.5.9-Setup-CC.exe)**<br>[Инструкция](WINDOWS_INSTALL.ru.md#установка-через-adobe-cc) | [0.5.9](CHANGELOG.md#windows-059-ru) | Windows 10 / 11, x64 |
+| Mac | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Standalone-Experimental.dmg)**<br>[Инструкция](MAC_INSTALL.ru.md#прямая-установка) | **[Скачать](https://github.com/JazzyXP/PScreenRec/releases/download/mac-v0.5.13/ProcessRecorder-0.5.10-Mac-arm64-Adobe-CC.dmg)**<br>[Инструкция](MAC_INSTALL.ru.md#установка-через-adobe-cc) | [0.5.10](CHANGELOG.md#mac-0510-ru) | macOS 15+, Apple Silicon |
 
-Скачайте один установщик для своего компьютера. Внутри плагин и его локальный помощник; отдельно устанавливать Python не нужно. Инструкции для обеих платформ — ниже.
+Скачайте один установщик для своего компьютера. Внутри плагин и его локальный помощник; отдельно устанавливать Python не нужно. Нажмите «Инструкция» под выбранной загрузкой.
 
 
 ### Интерфейс
@@ -48,24 +48,9 @@
 
 ## Установка
 
-### Windows
+[Инструкция для Windows](WINDOWS_INSTALL.ru.md) · [Инструкция для Mac](MAC_INSTALL.ru.md)
 
-1. Сохраните рисунки и закройте Photoshop.
-2. Запустите скачанный EXE и следуйте подсказкам.
-3. Откройте Photoshop → **Plugins → PScreenRec → PScreenRec**.
-4. Включите **«Записывать этот документ»**. Для автоматической записи следующих новых файлов включите **«Записывать новые документы»**.
-
-Отдельно устанавливать Creative Cloud, Python и UXP Developer Tool не нужно. Для первоначальной загрузки FFmpeg нужен интернет. Установщик поддерживает русский, английский, немецкий, французский, испанский, португальский (Бразилия) и украинский; язык панели выбирается по Photoshop — русский или английский.
-
-### Mac
-
-1. Сохраните рисунки и закройте Photoshop.
-2. Откройте скачанный DMG, запустите приложение Install внутри и следуйте подсказкам.
-3. Если macOS блокирует неподписанный установщик, откройте **Системные настройки → Конфиденциальность и безопасность → Всё равно открыть** для этого приложения. Подробности и разрешение «Мониторинг ввода» — в [инструкции для Mac](MAC_INSTALL.ru.md).
-4. Откройте Photoshop → **Plugins → PScreenRec → PScreenRec** и включите **«Записывать этот документ»**.
-
-Основная Mac-загрузка устанавливает плагин и помощник напрямую. Python и FFmpeg включены. Homebrew и UXP Developer Tool не нужны.
-
+В каждой инструкции есть прямая установка и установка через Adobe CC. Выберите один вариант для своей системы.
 
 ## Какое качество выбрать
 
